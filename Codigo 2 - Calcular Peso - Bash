@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo Ingrese el Nivel de Fuerza de la maquina de gravedad:
+read lvl 
+echo "El Peso es (kg): " 
+echo "$lvl / 9.8" | bc
+echo "El Peso en Libra: "
+echo "($lvl / 9.8) * 2.2" | bc
