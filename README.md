@@ -1,0 +1,3 @@
+# clasesarquitectura
+
+Tareas y demas 
