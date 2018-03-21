@@ -1,0 +1,5 @@
+voltaje = input('Ingrese Voltaje (Voltios): \n')
+resistencia = input ('Ingrese resistencia (Komn):  \n')
+corriente = float (voltaje) / float (resistencia)
+resultado = "La corriente es: " + repr(corriente) + " Amperio"
+print(resultado)
