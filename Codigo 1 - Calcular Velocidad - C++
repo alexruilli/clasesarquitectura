@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+  int Distancia = 0;
+  int Tiempo = 0;
+  std::cout << "Ingrese Distancia \n";
+  std::cin >> Distancia;
+  std::cout << "Ingrese Tiempo en minutos \n";
+  std::cin >> Tiempo; 
+  int Hora;
+  Hora = (1 * Tiempo)/60;
+  double Velocidad;
+  Velocidad = Distancia/Hora;
+  std::cout << "La velocidad es: ";
+  std::cout << Velocidad;
+  std::cout << " Km/h";
+}
